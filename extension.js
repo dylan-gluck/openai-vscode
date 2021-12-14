@@ -19,6 +19,7 @@ function activate(context) {
     });
     context.workspaceState.update("@codex.key", key);
     OPENAI_API_KEY = context.workspaceState.get("@codex.key", "");
+    return true;
   }
 
   if (!OPENAI_API_KEY) {
@@ -28,12 +29,19 @@ function activate(context) {
     setApiKey();
   }
 
+  // SetToken Function
+  context.subscriptions.push(
+    vscode.commands.registerCommand("openai-codex.setToken", async () => {
+      setApiKey();
+    })
+  );
+
   // AutoComplete Function
   context.subscriptions.push(
     vscode.commands.registerCommand("openai-codex.autocomplete", async () => {
       // Get API Key from Globalstate
       if (!OPENAI_API_KEY) {
-        setApiKey();
+        await setApiKey();
       }
       const openai = new OpenAI(OPENAI_API_KEY);
 

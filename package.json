@@ -21,6 +21,10 @@
       {
         "command": "openai-codex.autocomplete",
         "title": "OpenAI Autocomplete"
+      },
+      {
+        "command": "openai-codex.setToken",
+        "title": "OpenAI SetToken"
       }
     ]
   },
