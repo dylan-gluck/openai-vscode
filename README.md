@@ -1,4 +1,4 @@
-<img src="openai.svg" alt="drawing" width="200"/>
+<img src="openai.png" alt="OpenAI" width="300"/>
 
 # OpenAI Codex - VS Code Extension
 
