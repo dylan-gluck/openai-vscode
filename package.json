@@ -3,6 +3,12 @@
   "displayName": "OpenAI Codex Autocomplete",
   "description": "Code autocompletion using OpenAI API. Highlight text to use as promt & launch plugin to autocomplete.",
   "version": "0.0.1",
+  "author": "Dylan Navajas Gluck <dylan.n.gluck@gmail.com> (https://github.com/dylan-gluck)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dylan-gluck/openai-vscode"
+  },
+  "license": "Artistic-2.0",
   "engines": {
     "vscode": "^1.63.0"
   },

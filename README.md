@@ -1,3 +1,5 @@
+<img src="openai.svg" alt="drawing" width="200"/>
+
 # OpenAI Codex - VS Code Extension
 
 This is a VS Code Extension using OpenAI API. OpenAI’s API provides access to GPT-3, which performs a wide variety of natural language tasks, and Codex, which translates natural language to code.
