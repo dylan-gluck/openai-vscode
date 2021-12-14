@@ -41,7 +41,6 @@
     "typescript": "^4.4.4"
   },
   "dependencies": {
-    "dotenv": "^10.0.0",
     "openai": "^1.1.1",
     "openai-api": "^1.2.6"
   }
